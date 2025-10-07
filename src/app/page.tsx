@@ -1,5 +1,5 @@
 import HomeLayout from "@/layouts/HomeLayout";
-import Home from "@/pages/Home";
+import Home from "./home/page";
 
 export const metadata = {
   title: "Dmitry Lean | Home",
