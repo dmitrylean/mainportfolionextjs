@@ -1,7 +1,8 @@
 "use client";
+
 import "./ContactSection.css";
 
-const ContactSection = () => {
+const ContactSection: React.FC = () => {
   return (
     <section className="contact-section">
       <div className="container">
@@ -44,10 +45,10 @@ const ContactSection = () => {
             </div>
             <div className="info-text">
               <p>
-                If I miss your message or call, I'll get back to you as soon as
-                possible—usually within 24 hours. I truly value your time and
-                interest, and I'll make sure to respond thoughtfully and
-                promptly.
+                If I miss your message or call, I&apos;ll get back to you as
+                soon as possible—usually within 24 hours. I truly value your
+                time and interest, and I&apos;ll make sure to respond
+                thoughtfully and promptly.
               </p>
             </div>
           </div>

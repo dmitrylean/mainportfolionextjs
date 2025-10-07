@@ -1,4 +1,5 @@
 "use client";
+
 import "./Footer.css";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import {
@@ -7,7 +8,7 @@ import {
   faTelegram,
 } from "@fortawesome/free-brands-svg-icons";
 
-const Footer = () => {
+const Footer: React.FC = () => {
   return (
     <footer className="footer">
       <div className="container">

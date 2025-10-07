@@ -1,9 +1,10 @@
 "use client";
+
 import { useState } from "react";
 import Link from "next/link";
 import "./NavBar.css";
 
-const NavBar = () => {
+const NavBar: React.FC = () => {
   const [isOpen, setIsOpen] = useState(false);
 
   const openMenu = () => setIsOpen(true);
@@ -66,7 +67,6 @@ const NavBar = () => {
             <li>
               <Link href="/works">Works</Link>
             </li>
-            {/* <li><Link to="/service">Service</Link></li> */}
             <li>
               <Link href="/contact" className="btn-outline">
                 Contact

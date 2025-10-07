@@ -1,8 +1,8 @@
-// src/components/AlbumCard.jsx
 "use client";
+
 import "./Subscribe.css";
 
-function Subscribe() {
+const Subscribe: React.FC = () => {
   return (
     <div className="subscribe-section">
       <div className="container">
@@ -13,6 +13,6 @@ function Subscribe() {
       </div>
     </div>
   );
-}
+};
 
 export default Subscribe;

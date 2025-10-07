@@ -1,8 +1,9 @@
 "use client";
+
 import Link from "next/link";
 import "./Hero.css";
 
-const Hero = () => {
+const Hero: React.FC = () => {
   return (
     <section className="hero">
       <div className="container">
