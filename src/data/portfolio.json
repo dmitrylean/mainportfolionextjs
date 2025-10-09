@@ -46,7 +46,7 @@
     "title": "Strike The Hub",
     "detailsTitle": "Game portal on React",
     "description": "Game community website about FPS games",
-    "stack": "Next",
+    "stack": "React",
     "demo": "https://strikethehub.netlify.app",
     "github": "https://github.com/dmitrylean/game-portal-react",
     "icons": [
