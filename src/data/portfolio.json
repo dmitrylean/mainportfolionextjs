@@ -40,17 +40,5 @@
       "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nextjs/nextjs-original.svg",
       "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/tailwindcss/tailwindcss-original.svg"
     ]
-  },
-  {
-    "img": "/img/works/luxurycar.jpg",
-    "title": "Luxury Car Landing",
-    "detailsTitle": "React landing",
-    "description": "Luxury detailing in React.",
-    "stack": "React",
-    "demo": "https://react-landing-luxurycar.netlify.app/",
-    "github": "https://github.com/dmitrylean/react-landing-luxurycar",
-    "icons": [
-      "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg"
-    ]
   }
 ]
