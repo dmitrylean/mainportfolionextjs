@@ -67,6 +67,9 @@ const NavBar: React.FC = () => {
             <li>
               <Link href="/projects">Projects</Link>
             </li>
+            {/* <li>
+              <Link href="/works">Works</Link>
+            </li> */}
             <li>
               <Link href="/contact" className="btn-outline">
                 Contact
