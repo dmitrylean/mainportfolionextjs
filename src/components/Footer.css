@@ -1,5 +1,5 @@
 .footer {
-  padding: 40px 20px;
+  padding: 20px 0;
   text-align: center;
 }
 
@@ -12,7 +12,7 @@
 
 .footer .socials {
   display: flex;
-  gap: 30px;
+  gap: 10px;
 }
 
 .footer .socials a {
@@ -28,14 +28,4 @@
 .footer p {
   font-size: 14px;
   color: #666;
-}
-
-.socials svg {
-  font-size: 24px;
-  color: white;
-  transition: color 0.3s;
-}
-
-.socials svg:hover {
-  color: #1da1f2;
 }

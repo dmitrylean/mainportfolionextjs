@@ -65,7 +65,7 @@ const NavBar: React.FC = () => {
         <nav className={`nav ${isOpen ? "active" : ""}`}>
           <ul>
             <li>
-              <Link href="/works">Works</Link>
+              <Link href="/projects">Projects</Link>
             </li>
             <li>
               <Link href="/contact" className="btn-outline">
