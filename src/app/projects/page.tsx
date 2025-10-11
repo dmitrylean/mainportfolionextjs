@@ -1,6 +1,4 @@
-// import AlbumsSection from "@/components/AlbumsSection";
-// import MusicProjects from "@/components/MusicProjects";
-import WorksSection from "@/components/WorksSection";
+import PageToggle from "@/components/PageToggle";
 import { Metadata } from "next";
 
 export const metadata: Metadata = {
@@ -9,10 +7,10 @@ export const metadata: Metadata = {
 
 export default function ProjectsPage() {
   return (
-    <main>
-      <WorksSection />
-      {/* <AlbumsSection />
-      <MusicProjects /> */}
+    <main className="content">
+      <div className="conteiner">
+        <PageToggle />
+      </div>
     </main>
   );
 }

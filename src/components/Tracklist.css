@@ -20,19 +20,23 @@
 }
 
 .tab {
-  padding: 10px 20px;
-  border: none;
-  background: none;
+  padding: 0.5rem 1rem;
+  border: 2px solid white;
+  border-radius: 25px;
+  background: transparent;
   color: white;
-  font-size: 16px;
+  font-size: 0.9rem;
   cursor: pointer;
-  border-bottom: 2px solid transparent;
+  transition: all 0.3s ease;
 }
 
 .tab.active {
-  background-color: #FF5A00;
-  color: black;
-  border-radius: 5px;
+  padding: 0.5rem 1rem;
+  background: blue;
+  color: #fff;
+  border: 2px solid white;
+  border-radius: 25px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
 }
 
 .track-header {
@@ -63,8 +67,17 @@
 
 .track-info .author {
   font-size: 14px;
-  color: #aaa;
+  color: white;
   margin: 4px 0 0;
+}
+
+.tracklist-title {
+  text-align: center;
+  font-size: 48px;
+  font-weight: 900;
+  letter-spacing: 2px;
+  color: white;
+  margin-bottom: 10px;
 }
 
 audio {
@@ -75,7 +88,7 @@ audio {
 }
 
 /* Tablet */
-@media (max-width: 992px) {
+@media (max-width: 768px) {
   .track-header {
     grid-template-columns: 2fr 1fr 1fr;
   }
@@ -85,18 +98,18 @@ audio {
 }
 
 /* Mobile */
-@media (max-width: 600px) {
+@media (max-width: 500px) {
   .genre-tabs {
     flex-wrap: wrap;
     gap: 10px;
   }
 
   .track-header {
-    display: none; 
+    display: none;
   }
 
   .track {
-    grid-template-columns: 1fr; 
+    grid-template-columns: 1fr;
     gap: 10px;
   }
 

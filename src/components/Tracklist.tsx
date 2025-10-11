@@ -2,7 +2,7 @@
 
 import React, { useState, useRef, useEffect } from "react";
 import "./Tracklist.css";
-import tracksData from "../../lib/data/tracks.json";
+import tracksData from "../data/tracks.json";
 
 interface Track {
   title: string;

@@ -1,38 +1,47 @@
-"use client";
-
-import React from "react";
+import React, { useEffect, useState } from "react";
 import "./MusicProjects.css";
-import Links from "./Links";
-import projects from "../data/musicprojects.json";
+import ProjectLinks from "./ProjectLinks";
 import Image from "next/image";
 
+// 👇 Импортируем JSON через assert { type: "json" }
+// Это стандартный способ для новых версий Next/Turbopack
+import projects from "../data/musicprojects.json" assert { type: "json" };
+
 interface Project {
-  id?: string | number;
   cover: string;
-  imagetitle?: string;
+  imagetitle: string;
   title: string;
+  genre: string;
+  year: string;
   description: string;
-  links?: {
+  links: {
     spotify?: string;
     itunes?: string;
     youtube?: string;
   };
 }
 
-const MusicProjects: React.FC = () => {
+export default function MusicProjects() {
+  const [data, setData] = useState<Project[]>([]);
+
+  useEffect(() => {
+    setData(projects as Project[]);
+  }, []);
+
   return (
     <section className="projects">
       <div className="container">
         <h2 className="projects-title">Projects</h2>
+
         <div className="projects-content">
-          {(projects as Project[]).map((project, index) => (
-            <div className="project-block" key={project.id || index}>
+          {data.map((project, index) => (
+            <div className="project-block" key={index}>
               <div className="projects-image">
                 <Image
                   src={project.cover}
-                  width={250}
-                  height={250}
-                  alt={project.imagetitle || project.title}
+                  alt={project.imagetitle}
+                  width={500}
+                  height={500}
                 />
               </div>
 
@@ -40,7 +49,9 @@ const MusicProjects: React.FC = () => {
                 <div className="projects-item">
                   <div className="projects-text">
                     <h3>{project.title}</h3>
-                    <Links links={project.links} />
+                    <p className="project-subtitle">{project.genre}</p>
+                    <p>{project.year}</p>
+                    <ProjectLinks links={project.links} />
                     <p>{project.description}</p>
                   </div>
                 </div>
@@ -51,6 +62,4 @@ const MusicProjects: React.FC = () => {
       </div>
     </section>
   );
-};
-
-export default MusicProjects;
+}
