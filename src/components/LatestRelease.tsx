@@ -2,7 +2,7 @@
 
 import React from "react";
 import "./LatestRelease.css";
-import Links from "../Links";
+import Links from "./Links";
 import Image from "next/image";
 
 const LatestRelease: React.FC = () => {
