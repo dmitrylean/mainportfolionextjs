@@ -36,6 +36,7 @@
     "github": "https://github.com/dmitrylean/code-archive-projects/tree/main/apps/astro-multilang",
     "icons": [
       "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/astro/astro-original.svg",
+      "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg",
       "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/typescript/typescript-original.svg"
     ]
   },
@@ -48,8 +49,7 @@
     "demo": "https://astro-multilang.netlify.app",
     "github": "https://github.com/dmitrylean/code-archive-projects/tree/main/apps/react-landing",
     "icons": [
-      "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/astro/astro-original.svg",
-      "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/typescript/typescript-original.svg"
+      "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg"
     ]
   },
   {
@@ -61,9 +61,7 @@
     "demo": "https://strikethehub.netlify.app",
     "github": "https://github.com/dmitrylean/game-portal-react",
     "icons": [
-      "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/astro/astro-original.svg",
       "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg",
-      "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nextjs/nextjs-original.svg",
       "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/tailwindcss/tailwindcss-original.svg"
     ]
   }
