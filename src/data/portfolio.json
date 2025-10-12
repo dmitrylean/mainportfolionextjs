@@ -14,19 +14,6 @@
     ]
   },
   {
-    "img": "/img/works/astroblog.jpg",
-    "title": "Astro Blog",
-    "detailsTitle": "Astro Blog Theme",
-    "description": "Astro Blog.",
-    "stack": "Astro",
-    "demo": "https://astro-blogdev.netlify.app/",
-    "github": "https://github.com/dmitrylean/astro-blog",
-    "icons": [
-      "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/astro/astro-original.svg",
-      "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/typescript/typescript-original.svg"
-    ]
-  },
-  {
     "img": "/img/works/strikethehub.jpg",
     "title": "Strike The Hub",
     "detailsTitle": "Game portal on React",
