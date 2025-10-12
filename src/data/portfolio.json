@@ -14,6 +14,45 @@
     ]
   },
   {
+    "img": "/img/works/astroblog.jpg",
+    "title": "Astro Blog Theme",
+    "detailsTitle": "Astro Blog Theme",
+    "description": "Astro blog theme.",
+    "stack": "Astro",
+    "demo": "https://astro-blog01.netlify.app/",
+    "github": "https://github.com/dmitrylean/code-archive-projects/tree/main/apps/astro-blog",
+    "icons": [
+      "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/astro/astro-original.svg",
+      "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/typescript/typescript-original.svg"
+    ]
+  },
+  {
+    "img": "/img/works/oldportfolioastro.jpg",
+    "title": "Astro Multi-Lang Portfolio",
+    "detailsTitle": "Astro Multi-Lang Portfolio",
+    "description": "My old module multi-lang portfolio-blog.",
+    "stack": "Astro",
+    "demo": "https://astro-multilang.netlify.app",
+    "github": "https://github.com/dmitrylean/code-archive-projects/tree/main/apps/astro-multilang",
+    "icons": [
+      "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/astro/astro-original.svg",
+      "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/typescript/typescript-original.svg"
+    ]
+  },
+  {
+    "img": "/img/works/luxurycar.jpg",
+    "title": "Luxury Car Detailing",
+    "detailsTitle": "Luxury Car Landing",
+    "description": "Luxury Car Landing.",
+    "stack": "React",
+    "demo": "https://astro-multilang.netlify.app",
+    "github": "https://github.com/dmitrylean/code-archive-projects/tree/main/apps/react-landing",
+    "icons": [
+      "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/astro/astro-original.svg",
+      "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/typescript/typescript-original.svg"
+    ]
+  },
+  {
     "img": "/img/works/strikethehub.jpg",
     "title": "Strike The Hub",
     "detailsTitle": "Game portal on React",
