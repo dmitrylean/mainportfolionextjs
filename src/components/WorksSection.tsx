@@ -34,7 +34,6 @@ type FilterValue = "all" | "React" | "Next" | "Astro" | "Mobile" | "Python";
 
 const filters: { label: string; value: FilterValue }[] = [
   { label: "All", value: "all" },
-  { label: "Next", value: "Next" },
   { label: "React", value: "React" },
   { label: "Astro", value: "Astro" },
 ];
