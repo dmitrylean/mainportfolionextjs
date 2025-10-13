@@ -9,7 +9,6 @@
     "github": "https://github.com/dmitrylean/astroblogportfolio",
     "icons": [
       "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/astro/astro-original.svg",
-      "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg",
       "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/typescript/typescript-original.svg"
     ]
   },
@@ -46,8 +45,8 @@
     "detailsTitle": "Luxury Car Landing",
     "description": "Luxury Car Landing.",
     "stack": "React",
-    "demo": "https://astro-multilang.netlify.app",
-    "github": "https://github.com/dmitrylean/code-archive-projects/tree/main/apps/react-landing",
+    "demo": "https://luxury-car-landing.netlify.app/",
+    "github": "https://github.com/dmitrylean/code-archive-projects/tree/main/apps/luxurycar-react-landing",
     "icons": [
       "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg"
     ]
@@ -59,7 +58,20 @@
     "description": "Game community website about FPS games",
     "stack": "React",
     "demo": "https://strikethehub.netlify.app",
-    "github": "https://github.com/dmitrylean/game-portal-react",
+    "github": "https://github.com/dmitrylean/code-archive-projects/tree/main/apps/game-portal",
+    "icons": [
+      "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg",
+      "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/tailwindcss/tailwindcss-original.svg"
+    ]
+  },
+  {
+    "img": "/img/works/reactadmin.jpg",
+    "title": "React Dashboard",
+    "detailsTitle": "React Dashboard",
+    "description": "React dashboard",
+    "stack": "React",
+    "demo": "https://reactb2badmin.netlify.app/",
+    "github": "https://github.com/dmitrylean/code-archive-projects/tree/main/apps/b2bhelpadmin",
     "icons": [
       "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg",
       "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/tailwindcss/tailwindcss-original.svg"
