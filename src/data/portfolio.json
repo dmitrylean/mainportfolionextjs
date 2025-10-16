@@ -6,7 +6,7 @@
     "description": "A stylish portfolio template with integrated blog functionality, built on Astro.",
     "stack": "Astro",
     "demo": "https://astroblogportfolio.netlify.app/",
-    "github": "https://github.com/dmitrylean/astroblogportfolio",
+    "github": "https://github.com/dmitrylean/code-archive-projects/tree/main/apps/astroblogportfolio",
     "icons": [
       "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/astro/astro-original.svg",
       "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/typescript/typescript-original.svg"
@@ -26,55 +26,19 @@
     ]
   },
   {
-    "img": "/img/works/oldportfolioastro.jpg",
-    "title": "Astro Multi-Lang Portfolio",
-    "detailsTitle": "Astro Multi-Lang Portfolio",
-    "description": "My old module multi-lang portfolio-blog.",
-    "stack": "Astro",
-    "demo": "https://astro-multilang.netlify.app",
-    "github": "https://github.com/dmitrylean/code-archive-projects/tree/main/apps/astro-multilang",
-    "icons": [
-      "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/astro/astro-original.svg",
-      "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg",
-      "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/typescript/typescript-original.svg"
-    ]
-  },
-  {
-    "img": "/img/works/luxurycar.jpg",
-    "title": "Luxury Car Detailing",
-    "detailsTitle": "Luxury Car Landing",
-    "description": "Luxury Car Landing.",
-    "stack": "React",
-    "demo": "https://luxury-car-landing.netlify.app/",
-    "github": "https://github.com/dmitrylean/code-archive-projects/tree/main/apps/luxurycar-react-landing",
-    "icons": [
-      "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg"
-    ]
-  },
-  {
     "img": "/img/works/strikethehub.jpg",
     "title": "Strike The Hub",
     "detailsTitle": "Game portal on React",
-    "description": "Game community website about FPS games",
+    "description": "Game community website about FPS games. Frontend - React + TS, backend - Django",
     "stack": "React",
     "demo": "https://strikethehub.netlify.app",
     "github": "https://github.com/dmitrylean/code-archive-projects/tree/main/apps/game-portal",
     "icons": [
       "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg",
-      "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/tailwindcss/tailwindcss-original.svg"
-    ]
-  },
-  {
-    "img": "/img/works/reactadmin.jpg",
-    "title": "React Dashboard",
-    "detailsTitle": "React Dashboard",
-    "description": "React dashboard",
-    "stack": "React",
-    "demo": "https://reactb2badmin.netlify.app/",
-    "github": "https://github.com/dmitrylean/code-archive-projects/tree/main/apps/b2bhelpadmin",
-    "icons": [
-      "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg",
-      "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/tailwindcss/tailwindcss-original.svg"
+      "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/tailwindcss/tailwindcss-original.svg",
+      "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/typescript/typescript-original.svg",
+      "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/vite/vite-original.svg",
+      "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg"
     ]
   }
 ]
