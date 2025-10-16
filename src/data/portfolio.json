@@ -32,7 +32,7 @@
     "description": "Game community website about FPS games. Frontend - React + TS, backend - Django",
     "stack": "React",
     "demo": "https://strikethehub.netlify.app",
-    "github": "https://github.com/dmitrylean/code-archive-projects/tree/main/apps/game-portal",
+    "github": "https://github.com/dmitrylean/strikethehub",
     "icons": [
       "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg",
       "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/tailwindcss/tailwindcss-original.svg",
