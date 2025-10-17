@@ -6,7 +6,7 @@
     "description": "A stylish portfolio template with integrated blog functionality, built on Astro.",
     "stack": "Astro",
     "demo": "https://astroblogportfolio.netlify.app/",
-    "github": "https://github.com/dmitrylean/code-archive-projects/tree/main/apps/astroblogportfolio",
+    "github": "https://github.com/dmitrylean/astroblogportfolio",
     "icons": [
       "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/astro/astro-original.svg",
       "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/typescript/typescript-original.svg"
@@ -19,7 +19,7 @@
     "description": "Astro blog theme.",
     "stack": "Astro",
     "demo": "https://astro-blog01.netlify.app/",
-    "github": "https://github.com/dmitrylean/code-archive-projects/tree/main/apps/astro-blog",
+    "github": "https://github.com/dmitrylean/astro-blog",
     "icons": [
       "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/astro/astro-original.svg",
       "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/typescript/typescript-original.svg"
