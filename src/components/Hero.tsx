@@ -10,9 +10,9 @@ const Hero: React.FC = () => {
         <h1>
           Hi, I’m <span className="highlight">Dmitry</span>
           <br />
-          <span className="big">React Developer</span>
+          <span className="big">Software Developer</span>
           <br />
-          <span className="muted">JS / PHP / Python</span>
+          <span className="muted">React / Next / Astro</span>
         </h1>
       </div>
       <Link href="/contact" className="btn-primary">
