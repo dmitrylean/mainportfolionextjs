@@ -12,7 +12,7 @@ import rawData from "@/data/portfolio.json";
 import "./WorksSection.css";
 
 /* -----------------------------
-   Types (comments in English)
+   Types
    ----------------------------- */
 
 interface Project {
@@ -36,6 +36,9 @@ const filters: { label: string; value: FilterValue }[] = [
   { label: "All", value: "all" },
   { label: "Web", value: "Web" },
   { label: "Mobile", value: "Mobile" },
+  { label: "Backend", value: "Backend" },
+  { label: "GameDev", value: "GameDev" },
+  { label: "Tools", value: "Tools" },
 ];
 
 /* -----------------------------
