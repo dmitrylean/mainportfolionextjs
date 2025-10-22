@@ -26,19 +26,17 @@ interface Project {
   github?: string;
 }
 
-type FilterValue = "all" | "Web" | "Mobile" | "Backend" | "GameDev" | "Tools";
+type FilterValue = "All" | "Astro" | "React" | "Vue";
 
 /* -----------------------------
    Filters
    ----------------------------- */
 
 const filters: { label: string; value: FilterValue }[] = [
-  { label: "All", value: "all" },
-  { label: "Web", value: "Web" },
-  { label: "Mobile", value: "Mobile" },
-  { label: "Backend", value: "Backend" },
-  { label: "GameDev", value: "GameDev" },
-  { label: "Tools", value: "Tools" },
+  { label: "All", value: "All" },
+  { label: "Astro", value: "Astro" },
+  { label: "React", value: "React" },
+  { label: "Vue", value: "Vue" },
 ];
 
 /* -----------------------------
@@ -46,7 +44,7 @@ const filters: { label: string; value: FilterValue }[] = [
    ----------------------------- */
 
 export default function WorksSection() {
-  const [activeFilter, setActiveFilter] = useState<FilterValue>("all");
+  const [activeFilter, setActiveFilter] = useState<FilterValue>("All");
 
   // store refs to project cards (optional)
   const projectsRefs = useRef<Array<HTMLDivElement | null>>([]);
@@ -58,7 +56,7 @@ export default function WorksSection() {
   // Filter projects — NOTE: if your `stack` field is a CSV string like "React, Next",
   // use `.includes` after splitting to support multi-tag projects.
   const filteredProjects: Project[] =
-    activeFilter === "all"
+    activeFilter === "All"
       ? projects
       : projects.filter((p) =>
           p.stack
