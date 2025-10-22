@@ -1,13 +1,7 @@
-/** @type {import('next').NextConfig} */
 const nextConfig = {
+  output: "export",
   images: {
-    domains: [
-      "upload.wikimedia.org",
-      "www.metal-archives.com",
-      "open.spotify.com",
-      "music.apple.com",
-      "youtube.com",
-    ],
+    unoptimized: true,
   },
 };
 
