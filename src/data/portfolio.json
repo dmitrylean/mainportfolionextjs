@@ -38,5 +38,18 @@
       "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/tailwindcss/tailwindcss-original.svg",
       "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/typescript/typescript-original.svg"
     ]
+  },
+  {
+    "img": "/img/works/beautysalonphp.jpg",
+    "title": "Beauty Salon",
+    "detailsTitle": "Beauty Salon",
+    "description": "Web application written in pure PHP, SQL, CSS and JS without frameworks",
+    "stack": "PHP",
+    "github": "https://github.com/dmitrylean/beautysalon-webapp-php",
+    "icons": [
+      "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/php/php-original.svg",
+      "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mysql/mysql-original.svg",
+      "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg"
+    ]
   }
 ]

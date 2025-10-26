@@ -26,7 +26,7 @@ interface Project {
   github?: string;
 }
 
-type FilterValue = "All" | "Astro" | "React" | "Vue";
+type FilterValue = "All" | "Astro" | "React" | "PHP";
 
 /* -----------------------------
    Filters
@@ -36,7 +36,7 @@ const filters: { label: string; value: FilterValue }[] = [
   { label: "All", value: "All" },
   { label: "Astro", value: "Astro" },
   { label: "React", value: "React" },
-  { label: "Vue", value: "Vue" },
+  { label: "PHP", value: "PHP" },
 ];
 
 /* -----------------------------
