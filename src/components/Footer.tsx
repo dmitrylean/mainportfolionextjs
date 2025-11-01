@@ -8,7 +8,7 @@ import Links from "./Links";
 const Footer: React.FC = () => {
   const footerLinks = {
     github: "https://github.com/dmitrylean",
-    behance: "#",
+    behance: "https://www.behance.net/dmitrylean",
     telegram: "#",
   };
 
